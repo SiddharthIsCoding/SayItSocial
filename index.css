@@ -1,0 +1,160 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+img{
+    width: 100%;
+}
+h2{
+    margin: 0;
+    font-size: 16px;
+}
+.nav-container{
+    background-color: #2B2929;
+    padding: 0.5em 1em;
+    /* padding: 1.2em; */
+}
+p{
+    font-size: smaller;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    line-height: 18px;
+}
+/*...................*/
+
+/*styling the list items*/
+/*....................*/
+.list-items{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+.list-child{
+    width: 30%;
+}
+
+/*.......................*/
+    /*HERO  SECTION /*
+/*.......................*/
+.hero-text-image{
+  display: flex;
+  color:#F68D42;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.image-container{
+    width: 55%;
+}
+.hero-text{
+    width: 42%;
+}
+.main-section img{
+    box-shadow: -10px -10px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+/*...................*/
+/*main section
+/*....................*/
+.main-section{
+    background-color: #19324E;
+    padding: 0 1.5em;
+    padding-top: 1.5em;
+}
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    
+}
+.first-section-child1{
+    width: 45%;
+}
+.first-section-child1 img{
+    transform: rotate(-10deg);
+}
+.first-section-child2{
+    width: 50%; 
+}
+
+.second-section{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.second-section-child1{
+    width: 45%;
+   
+}
+.second-section-child2{
+    width: 45%;
+}
+.second-section-child2 h2{
+    margin: 0;
+}
+.get-started{
+    display: block;
+    text-align: center;
+    color: #F68D42;
+}
+button{
+    margin-top:0.5em;
+    margin-bottom: 0.6em;
+    padding: .5em;
+    border-radius: 10px;
+    border: none;
+    background-color: #99FFA3;
+    color: white;
+}
+.testimonals{
+    text-align: center;
+    color: #F68D42;
+}
+.cards-align{
+    background-color: #2B2929;
+    border-radius: 20px;
+    padding: 0 0.5em;
+    width: 25%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5em;
+    text-align: center;
+    padding-top: 1em;
+}
+.cards-align h2{
+    font-size: 1rem;
+}
+.cards{
+    display: flex;
+    padding-bottom: 1.5em;
+    padding-top: 0.5em;
+}
+.circle h2{
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    width: 45px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    height:45px;
+}
+footer{
+    background-color: #2B2929;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+footer h1{
+    text-align: center;
+}
+footer p{
+    padding: 0 0 0 2em;
+}
+
+/* hey im here , I'll see the issue after my dinner , will be back in just 5 minutes */
