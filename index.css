@@ -2,7 +2,10 @@ body{
    margin: 0;
    padding: 0;
 }
-img{
+*{
+    box-sizing: border-box;
+}
+img,input{
     width: 100%;
 }
 h2{
@@ -157,4 +160,104 @@ footer p{
     padding: 0 0 0 2em;
 }
 
-/* hey im here , I'll see the issue after my dinner , will be back in just 5 minutes */
+
+/*........................................*/
+/*css for the home page starts from here
+/*.......................................*/
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+}
+
+/*
+styling the first column of the page which has a whiteround class name
+*/
+/*........................................................................*/
+.flex-child-one{
+    width: 80px;
+}
+.white-rounds{
+background-color: #14263B;
+height: 100vh;
+padding:1em 0 0.2em;
+}
+.line{
+width: 90%;
+height: 0px;
+border: 1px solid #FFFFFF;
+margin:1em 0;
+}
+
+.rounds{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: #D9D9D9;
+    margin-bottom: 1.2em;
+}
+
+/*........................................*/
+/*styling the second section of the page*/
+/*........................................*/
+.flex-child-two{
+    width: 80%;
+}
+.image-section{
+    background-color: #19324E;
+    padding: 0.5em 0;
+    color: white;
+    font-size: 2rem;
+}
+.image-container-home-page{
+    padding: 0.5em;
+    background-color: #465069;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+.image-container>img{
+    border-radius: 10px;
+}
+input{
+    padding: 0.5em;
+    border-radius: 5px;
+    border:none ;
+    background-color: #6B6AA1;
+    font-weight: 900;
+}
+input::placeholder {
+    color: white;
+    font-weight: 100;
+  }
+
+  /* home page design for the larger screens*/
+  @media (min-width:700px){
+    .image-section{
+        padding: 2em 1.5em;
+    }
+  .image-container-home-page{
+    display: flex;
+    gap:20px;
+    height: 45vh;
+    width: 100%;
+  }
+  .image-continer-child-first{
+   width: 50%;
+  }
+  .image-container-child-second input{
+  margin-bottom: 0;
+  }
+  .image-container-child-second{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  p{
+    margin-top: 0.5em;
+  }
+   }
+  
